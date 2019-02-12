@@ -59,6 +59,6 @@ class Owner
   def sell_pets()
   end
   def list_pets()
-    @@pets[:fishes].count
+   "I have #{@@pets[:fishes].count} fish"
 end
 end
