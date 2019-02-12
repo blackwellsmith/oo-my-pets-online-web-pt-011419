@@ -56,10 +56,10 @@ class Owner
       fish.mood = "happy"
     end
   end
-  def sell_pets()
+  def sell_pets
     @@pets.each do |pet, array|
-      array.map do |pet|
-        pet.mood = "nervous"
+      array.map do |pets|
+        pets.mood = "nervous"
       end
     array.clear
   end
