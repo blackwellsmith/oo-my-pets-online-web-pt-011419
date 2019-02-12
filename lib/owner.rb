@@ -59,4 +59,6 @@ class Owner
   def sell_pets()
   end
   def list_pets()
+    @@pets.value.flatten
+end
 end
