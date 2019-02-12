@@ -61,8 +61,8 @@ class Owner
       array.map do |pet|
         pet.mood = "nervous"
       end
-    end 
     array.clear
+  end
   end
   
   def list_pets()
