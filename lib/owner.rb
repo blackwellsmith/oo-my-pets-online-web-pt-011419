@@ -59,6 +59,6 @@ class Owner
   def sell_pets()
   end
   def list_pets()
-    @@pets.values.flatten
+    @@pets[:fishes].count
 end
 end
