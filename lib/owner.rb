@@ -1,3 +1,4 @@
+require "pry"
 class Owner
   attr_accessor :owner, :name, :pets
   attr_writer
@@ -57,6 +58,7 @@ class Owner
     end
   end
   def sell_pets
+    binding.pry
     @@pets.each do |pet_type, pet_array|
       pet_array.each do |pet|
         pet.mood = "nervous"
